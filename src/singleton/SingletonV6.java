@@ -6,7 +6,7 @@ package singleton;
 public enum SingletonV6 {
     INSTANCE;
 	
-	public static SingletonV6 getInstance() {
-		return INSTANCE;
-	}
+    public static SingletonV6 getInstance() {
+        return INSTANCE;
+    }
 }
