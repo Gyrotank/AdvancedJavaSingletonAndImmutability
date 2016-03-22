@@ -11,7 +11,7 @@ public final class SingletonV6 {
  */ 
 public enum SingletonV6 {
     INSTANCE;
-	
+    
     public static SingletonV6 getInstance() {
         return INSTANCE;
     }
