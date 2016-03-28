@@ -17,7 +17,8 @@ public class Tester {
         }
        
         //Had to use reflection instead of inheritance since you can't extend enums 
-        //due to them implicitly extending java.lang.Enum
+        //due to them implicitly extending java.lang.Enum.
+        //We also can't use a common interface since static interface methods are never inherited
         public void run()
         {
             try {
