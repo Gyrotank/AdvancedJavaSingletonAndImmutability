@@ -16,6 +16,8 @@ public class Tester {
             mythread.start();
         }
        
+        //Had to use reflection instead of inheritance since you can't extend enums 
+        //due to them implicitly extending java.lang.Enum
         public void run()
         {
             try {
