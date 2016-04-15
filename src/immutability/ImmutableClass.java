@@ -8,7 +8,7 @@ public final class ImmutableClass {
     public ImmutableClass(int id, String name, SomeInfo additionalInfo) {
         this.id = id;
         this.name = name;
-        this.additionalInfo = new SomeInfo(additionalInfo);
+        this.additionalInfo = additionalInfo.copy();
     }
 
     public int getId() {
