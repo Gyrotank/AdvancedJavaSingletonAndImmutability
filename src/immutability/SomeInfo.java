@@ -13,8 +13,12 @@ public class SomeInfo {
         this.info2 = info2;
     }
     
-    SomeInfo(SomeInfo that) {
+    protected SomeInfo(SomeInfo that) {
         this.info1 = that.info1;
         this.info2 = that.info2;
+    }
+    
+    SomeInfo copy() {
+    	return new SomeInfo(this);
     }
 }

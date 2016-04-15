@@ -20,6 +20,6 @@ public final class ImmutableClass {
     }
 
     public SomeInfo getAdditionalInfo() {
-        return new SomeInfo(additionalInfo);
+        return additionalInfo.copy();
     }
 }
